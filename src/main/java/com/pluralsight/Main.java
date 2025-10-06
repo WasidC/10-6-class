@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.Scanner;
 
 public class Main {
@@ -23,7 +25,7 @@ public class Main {
 
  */
 
-        try {
+/*        try {
             Scanner scanner = new Scanner(System.in);
 
             System.out.println("Enter number 1: ");
@@ -39,6 +41,27 @@ public class Main {
             System.out.println("A big sorry from potato sensei, an error has occured!");
 
         }
+
+ */
+
+/*        try {
+            FileReader myFileReader = new FileReader("poem.txt");
+            BufferedReader bufferedReader = new BufferedReader(myFileReader);
+
+            String line;
+
+            while ((line = bufferedReader.readLine()) != null) {
+                System.out.println(line);
+
+            }
+
+            bufferedReader.close();
+
+        } catch (Exception e) {
+            System.out.println("oops something went wrong");
+        }
+
+ */
 
 
     }
